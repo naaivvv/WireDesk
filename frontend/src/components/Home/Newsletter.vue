@@ -81,8 +81,9 @@ const subscribe = async () => {
                 Sign up for our newsletter
               </h2>
               <p class="mx-auto mt-6 max-w-2xl text-lg text-teal-100">
-                Join our community of web app enthusiasts and receive expert tips, industry
-                insights, and early access to new releases by signing up for our newsletter.
+                Become part of our community focused on customer care and solutions for laptop
+                wireless accessories. Stay informed with expert tips, industry insights, and 
+                exclusive early access to new releases by subscribing to our newsletter.
               </p>
             </div>
             <form class="mt-12 sm:mx-auto sm:flex sm:max-w-lg" @submit.prevent="subscribe">

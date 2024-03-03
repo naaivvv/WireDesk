@@ -151,6 +151,7 @@ whenever(
         <div class="flex">
           <div class="flex flex-shrink-0 items-center">
             <Logo class-names="w-10" />
+            <p class="text-3xl font-semibold text-teal-600">WireDesk</p>
           </div>
           <div class="hidden lg:ml-6 lg:flex lg:space-x-8">
             <router-link

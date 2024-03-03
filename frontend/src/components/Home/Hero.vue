@@ -16,13 +16,13 @@ const { open } = useSearchPalette()
       <header class="">
         <div class="space-y-6">
           <h1
-            class="text-center text-4xl font-extrabold tracking-tight sm:mt-5 sm:text-5xl md:text-left md:text-4xl lg:mt-6 lg:text-5xl xl:text-6xl"
+            class="text-center text-3xl font-extrabold tracking-tight sm:mt-5 sm:text-5xl md:text-left md:text-3xl lg:mt-6 lg:text-4xl xl:text-5xl"
           >
-            <span class="block">Your satisfaction is</span>
+            <span class="block">Customer Care and Solutions</span>
             <span
               class="block bg-gradient-to-r from-teal-400 to-teal-900 bg-clip-text pb-3 text-transparent"
             >
-              our top priority
+              for Laptop Wireless Accessories
             </span>
           </h1>
           <h2 class="text-center text-lg md:text-left lg:text-xl">

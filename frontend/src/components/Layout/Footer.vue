@@ -4,7 +4,15 @@
   <footer class="p-3">
     <div class="text-center">
       <a
-        v-tooltip.bottom="'Github Repository'"
+        v-tooltip.bottom="'Author [Github Profile]'"
+        href="https://github.com/naaivvv"
+        target="_blank"
+        class="inline-block rounded-full bg-[#D4F4F1] p-2 mr-2 text-center text-white"
+      >
+      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAACNklEQVR4nLWUz2sTQRTH1x9E8aDQnf5AiiIoVZFKTVA8KdrdjaDH/AsevXr0YqWSLeLRXbCHMkvdWttTdhNS4i+w2CpJNbA7tKC0a607iVIPNadXZjcppLGNu4kPvjBvdvh+3jz2DcdtD12PIBM/5E3tGzI1qJOBHWRow+wMFzaYQYOxuR2kDYcG/LVys168iVfD36BZ9aavlgAxp7CrUFgAUuQHSB1pDlBHgFeTQ4EBvJr8jVT5HwAyIEVeDwMYQopcaQpQ5AqvJO9zYSO6kl/fBfCLazViK/mpnQBRp/CsDYBCX8zJlxvN8/TicqG3NXddj3QaONE983zu7IcMXPj60dOZ+Qz0zEwsoDS+fTw3ejCwb1dW6+ZNfBeZ2vLWQD195P8xTGxdm2QDf2fPRUdqrPltUBpHkaE94Q1to2Fip0d9Yya2bphoXOFNTe8w8GDLTwMK+3S0w/zY62mIu9b1m45z6L8AYvY7kCgBidp32gIYKL6BU++Nrfyq88kDxMtWv0DtS5JLxuOEHAgFGCi+9cyEHxb0ZCfgaG7Sr94lpQR8jkjUJtU85UGCmPcvvKq2gsDJ2ZS31zef8XLRJZOsYKG0eE6i9kb13FQgQO/LF3BttegZXl6ag870eH3/AfaILnlcBVYEl9zigobgV7gmuWQ2Tslh0bW/1PqfANjH+i9S+49Qsm4ENq+F6FqnB8tLR4Sf1ola/+8B7GXfrkBuv+guRkOb14HW7PMiJVmR2mM7HdoEjD8wcPqpXaYAAAAASUVORK5CYII=">
+      </a>
+      <a
+        v-tooltip.bottom="'Github Repository [Source Credits]'"
         href="https://github.com/omaghd/otickets"
         target="_blank"
         class="inline-block rounded-full bg-[#333] p-2 text-center text-white"
