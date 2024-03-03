@@ -1,54 +1,56 @@
-# OTickets - Ticket Support System
+# WireDesk - Customer Care and Solutions for Laptop Wireless Accessories
 
-OTickets is a ticket support web application that simplifies the management of support tickets and provides a platform
-to handle frequently asked questions (FAQs) to enhance visitor and client experience.
+WireDesk is a ticket support web application that simplifies the management of support tickets and provides a platform to handle frequently asked questions (FAQs) to enhance visitor and client experience, specifically focusing on customer care and solutions for laptop wireless accessories.
 
 If you found this repo helpful, please give it a (⭐). Thank you!
 
 ## Table of Contents
 
-- [Demo](#demo)
-- [Features](#features)
-- [Languages and Tools](#languages-and-tools)
-  - [Frontend](#frontend)
-  - [Backend](#backend)
-  - [Database](#database)
-  - [Tools](#tools)
-- [Installation](#installation)
-  - [Requirements](#requirements)
-  - [Installation Steps](#installation-steps)
-- [Usage](#usage)
-  - [Default Credentials](#default-credentials)
-  - [Tests](#tests)
-  - [Notifications](#notifications)
-  - [Postman Collection](#postman-collection)
-- [User Stories](#user-stories)
-  - [Visitor](#visitor)
-  - [Admin](#admin)
-    - [Dashboard](#dashboard)
-    - [User Management](#user-management)
-    - [Department Management](#department-management)
-    - [Client Management](#client-management)
-    - [Category Management](#category-management)
-    - [FAQ Management](#faq-management)
-    - [Canned Response Management](#canned-response-management)
-    - [Newsletter Management](#newsletter-management)
-    - [Ticket Management](#ticket-management)
-    - [Profile Management](#profile-management)
-    - [Notification Management](#notification-management)
-  - [Agent](#agent)
-    - [Dashboard](#dashboard-1)
-    - [Canned Response Management](#canned-response-management-1)
-    - [Ticket Management](#ticket-management-1)
-    - [Profile Management](#profile-management-1)
-    - [Notification Management](#notification-management-1)
-  - [Client](#client)
-    - [Ticket Management](#ticket-management-2)
-    - [Profile Management](#profile-management-2)
-    - [Notification Management](#notification-management-2)
-- [Author](#author)
-- [Contributing](#contributing)
-- [License](#license)
+- [WireDesk - Customer Care and Solutions for Laptop Wireless Accessories](#wiredesk---customer-care-and-solutions-for-laptop-wireless-accessories)
+  - [Table of Contents](#table-of-contents)
+  - [Demo](#demo)
+  - [Features](#features)
+  - [Languages and Tools](#languages-and-tools)
+    - [Frontend](#frontend)
+    - [Backend](#backend)
+    - [Database](#database)
+    - [Tools](#tools)
+  - [Installation](#installation)
+    - [Requirements](#requirements)
+    - [Installation Steps](#installation-steps)
+  - [Usage](#usage)
+    - [Default Credentials](#default-credentials)
+    - [Tests](#tests)
+    - [Notifications](#notifications)
+    - [Postman Collection](#postman-collection)
+  - [User Stories](#user-stories)
+    - [Visitor](#visitor)
+    - [Admin](#admin)
+      - [Dashboard](#dashboard)
+      - [User Management](#user-management)
+      - [Department Management](#department-management)
+      - [Client Management](#client-management)
+      - [Category Management](#category-management)
+      - [FAQ Management](#faq-management)
+      - [Canned Response Management](#canned-response-management)
+      - [Newsletter Management](#newsletter-management)
+      - [Ticket Management](#ticket-management)
+      - [Profile Management](#profile-management)
+      - [Notification Management](#notification-management)
+    - [Agent](#agent)
+      - [Dashboard](#dashboard-1)
+      - [Canned Response Management](#canned-response-management-1)
+      - [Ticket Management](#ticket-management-1)
+      - [Profile Management](#profile-management-1)
+      - [Notification Management](#notification-management-1)
+    - [Client](#client)
+      - [Ticket Management](#ticket-management-2)
+      - [Profile Management](#profile-management-2)
+      - [Notification Management](#notification-management-2)
+  - [Author](#author)
+  - [Source Author](#source-author)
+  - [Contributing](#contributing)
+  - [License](#license)
 
 ## Demo
 
@@ -213,9 +215,9 @@ If you ran the database seeder, you can login with the following credentials:
 
 | Role   | Email              | Password    |
 | ------ | ------------------ | ----------- |
-| Admin  | contact@omaghd.com | OTickets@00 |
-| Agent  | agent@omaghd.com   | OTickets@00 |
-| Client | client@omaghd.com  | OTickets@00 |
+| Admin  | contact@wiredesk.com | WireDesk000 |
+| Agent  | agent@wiredesk.com   | WireDesk000 |
+| Client | client@wiredesk.com  | WireDesk000 |
 
 ### Tests
 
@@ -541,6 +543,18 @@ You can download it from <a href="https://omaghd.com/projects/otickets/postman_c
 </a>
 
 ## Author
+
+| Website  | [omaghd.com](https://portfolio-naaivvv.netlify.app)             |
+| -------- | -------------------------------------------- |
+| LinkedIn | [/in/omaghd](https://www.linkedin.com/in/edwin-bayog-6366a0148/) |
+| Twitter  | [/omaghd](https://twitter.com/naaivvv)        |
+| GitHub   | [/omaghd](https://github.com/naaivvv)         |
+
+<a href="#table-of-contents" title="Go back to the table of contents">
+⬆️
+</a>
+
+## Source Author
 
 | Website  | [omaghd.com](https://omaghd.com)             |
 | -------- | -------------------------------------------- |
