@@ -544,11 +544,11 @@ You can download it from <a href="https://omaghd.com/projects/otickets/postman_c
 
 ## Author
 
-| Website  | [omaghd.com](https://portfolio-naaivvv.netlify.app)             |
+| Website  | [portfolio-naaivvv.netlify.app](https://portfolio-naaivvv.netlify.app)             |
 | -------- | -------------------------------------------- |
-| LinkedIn | [/in/omaghd](https://www.linkedin.com/in/edwin-bayog-6366a0148/) |
-| Twitter  | [/omaghd](https://twitter.com/naaivvv)        |
-| GitHub   | [/omaghd](https://github.com/naaivvv)         |
+| LinkedIn | [/in/edwin-bayog-6366a0148](https://www.linkedin.com/in/edwin-bayog-6366a0148/) |
+| Twitter  | [/naaivvv](https://twitter.com/naaivvv)        |
+| GitHub   | [/naaivvv](https://github.com/naaivvv)         |
 
 <a href="#table-of-contents" title="Go back to the table of contents">
 ⬆️
