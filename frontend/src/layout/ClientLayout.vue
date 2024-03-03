@@ -11,12 +11,20 @@ import PlusCircleIcon from '@heroicons/vue/24/outline/PlusCircleIcon'
 import { useNotificationsStore } from '@/stores/notifications'
 import { storeToRefs } from 'pinia'
 
+// const subNavigation = [
+//   { name: 'Tickets', to: 'ClientTickets', icon: TicketIcon },
+//   { name: 'New Ticket', to: 'ClientNewTicket', icon: PlusCircleIcon },
+//   { name: 'Profile', to: 'ClientProfile', icon: UserCircleIcon },
+//   { name: 'Password', to: 'ClientPassword', icon: KeyIcon },
+//   { name: 'Notifications', to: 'ClientNotifications', icon: BellIcon }
+// ]
+
 const subNavigation = [
   { name: 'Tickets', to: 'ClientTickets', icon: TicketIcon },
-  { name: 'New Ticket', to: 'ClientNewTicket', icon: PlusCircleIcon },
+  { name: 'New Ticket', to: '', icon: PlusCircleIcon },
   { name: 'Profile', to: 'ClientProfile', icon: UserCircleIcon },
   { name: 'Password', to: 'ClientPassword', icon: KeyIcon },
-  { name: 'Notifications', to: 'ClientNotifications', icon: BellIcon }
+  { name: 'Notifications', to: '', icon: BellIcon }
 ]
 
 const notificationsStore = useNotificationsStore()

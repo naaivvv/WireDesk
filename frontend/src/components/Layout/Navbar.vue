@@ -179,7 +179,6 @@ whenever(
             <span class="sr-only">Search</span>
             <MagnifyingGlassIcon class="h-6 w-6" />
           </button>
-
           <DisclosureButton
             class="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-teal-500"
           >
@@ -190,8 +189,16 @@ whenever(
         </div>
 
         <div class="hidden lg:ml-4 lg:flex lg:items-center">
-          <button
+          <!-- <button
             @click="searchPaletteStore.open"
+            type="button"
+            class="mr-4 block rounded-full p-1 text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2"
+          >
+            <span class="sr-only">Search</span>
+            <MagnifyingGlassIcon class="h-6 w-6" />
+          </button> -->
+          <button
+            @click=""
             type="button"
             class="mr-4 block rounded-full p-1 text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2"
           >

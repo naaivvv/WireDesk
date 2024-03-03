@@ -18,26 +18,35 @@ const { open } = useSearchPalette()
           <h1
             class="text-center text-3xl font-extrabold tracking-tight sm:mt-5 sm:text-5xl md:text-left md:text-3xl lg:mt-6 lg:text-4xl xl:text-5xl"
           >
-            <span class="block">Customer Care and Solutions</span>
+            <span class="block">Customer Care and <br /> Solutions for</span>
             <span
               class="block bg-gradient-to-r from-teal-400 to-teal-900 bg-clip-text pb-3 text-transparent"
             >
-              for Laptop Wireless Accessories
+              Laptop Wireless <br /> Accessories
             </span>
           </h1>
           <h2 class="text-center text-lg md:text-left lg:text-xl">
             Get the help you need with our FAQs and ticketing system
           </h2>
           <div class="flex items-center justify-center gap-3 md:justify-start">
-            <button
+            <!-- <button
               @click="open"
+              class="inline-flex items-center justify-center gap-1 rounded-md border border-teal-600 px-4 py-3 font-medium text-teal-600 shadow-sm focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2 sm:w-auto"
+            >
+              <MagnifyingGlassIcon class="h-5 w-5" />
+              <span>Search</span>
+            </button> -->
+
+            <button
+              @click=""
               class="inline-flex items-center justify-center gap-1 rounded-md border border-teal-600 px-4 py-3 font-medium text-teal-600 shadow-sm focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2 sm:w-auto"
             >
               <MagnifyingGlassIcon class="h-5 w-5" />
               <span>Search</span>
             </button>
 
-            <CTALink to="ClientNewTicket" text="Submit a ticket" />
+            <!-- <CTALink to="ClientNewTicket" text="Submit a ticket" /> -->
+            <CTALink to="" text="Submit a ticket" />
           </div>
         </div>
       </header>
