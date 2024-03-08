@@ -58,7 +58,7 @@ Demo Video: [https://youtu.be/fZGz6KKq8uw](https://youtu.be/fZGz6KKq8uw)
 
 Online Demo: [https://omaghd.com/projects/otickets](https://omaghd.com/projects/otickets)
 
-<img src="homepage.jpeg" alt="OTickets - Screenshot" width="100%">
+<img src="homepage.jpeg" alt="WireDesk - Screenshot" width="100%">
 
 <a href="#table-of-contents" title="Go back to the table of contents">
 ⬆️
