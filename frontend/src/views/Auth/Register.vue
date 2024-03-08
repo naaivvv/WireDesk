@@ -122,7 +122,7 @@ const onSubmit = async () => {
       <div class="mt-8">
         <p class="text-center text-gray-500">
           Already have an account?
-          <router-link :to="{ name: 'Login' }" class="text-teal-600">Sign in</router-link>
+          <router-link :to="{ name: 'Login' }" class="text-indigo-600">Sign in</router-link>
         </p>
       </div>
     </div>

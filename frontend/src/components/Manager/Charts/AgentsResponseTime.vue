@@ -10,7 +10,7 @@ const series = ref([] as any[])
 
 const chartOptions = ref({
   chart: { type: 'bar' },
-  colors: ['#0d9488'],
+  colors: ['#4338ca'],
   plotOptions: {
     bar: {
       horizontal: false,

@@ -62,7 +62,7 @@ watch(
           'mt-1 block w-full rounded-md focus:outline-none sm:text-sm',
           errors?.length
             ? 'border-red-300 pr-10 text-red-900 placeholder-red-300 focus:border-red-300 focus:ring-red-500'
-            : 'border-gray-300 placeholder-gray-400 focus:border-teal-300 focus:ring-teal-500'
+            : 'border-gray-300 placeholder-gray-400 focus:border-indigo-300 focus:ring-indigo-500'
         ]"
       >
       </textarea>

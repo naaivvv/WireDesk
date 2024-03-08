@@ -298,7 +298,7 @@ onMounted(async () => {
       <div class="sticky top-0 z-20 flex h-16 flex-shrink-0 bg-white shadow">
         <button
           type="button"
-          class="border-r border-gray-200 px-4 text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-teal-500 md:hidden"
+          class="border-r border-gray-200 px-4 text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500 md:hidden"
           @click="sidebarOpen = true"
         >
           <span class="sr-only">Open sidebar</span>
@@ -309,7 +309,7 @@ onMounted(async () => {
             <Menu as="div">
               <MenuButton
                 type="button"
-                class="flex rounded-full p-1 text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2"
+                class="flex rounded-full p-1 text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
               >
                 <span class="sr-only">View notifications</span>
                 <div class="relative">
@@ -319,9 +319,9 @@ onMounted(async () => {
                     v-if="notificationsCounts.unread"
                   >
                     <span
-                      class="absolute inline-flex h-full w-full animate-ping rounded-full bg-teal-400 opacity-75"
+                      class="absolute inline-flex h-full w-full animate-ping rounded-full bg-indigo-400 opacity-75"
                     ></span>
-                    <span class="relative inline-flex h-3 w-3 rounded-full bg-teal-500"></span>
+                    <span class="relative inline-flex h-3 w-3 rounded-full bg-indigo-500"></span>
                   </span>
                 </div>
               </MenuButton>
@@ -402,7 +402,7 @@ onMounted(async () => {
                             <div
                               :class="{
                                 'text-gray-600': notification.read_at,
-                                'font-semibold text-teal-600': !notification.read_at
+                                'font-semibold text-indigo-600': !notification.read_at
                               }"
                               class="truncate text-base"
                               :title="notification.data.message"
@@ -469,7 +469,7 @@ onMounted(async () => {
                             </Menu>
 
                             <div
-                              class="h-3 w-3 rounded-full bg-teal-500"
+                              class="h-3 w-3 rounded-full bg-indigo-500"
                               v-if="!notification.read_at"
                             ></div>
                           </div>
@@ -502,7 +502,7 @@ onMounted(async () => {
             <Menu as="div" class="relative">
               <div>
                 <MenuButton
-                  class="flex max-w-xs items-center rounded-full bg-white text-sm focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2"
+                  class="flex max-w-xs items-center rounded-full bg-white text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
                 >
                   <span class="sr-only">Open user menu</span>
                   <img class="h-8 w-8 rounded-full" :src="picture" alt="Profile Picture" />

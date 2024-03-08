@@ -20,7 +20,7 @@ const { open } = useSearchPalette()
           >
             <span class="block">Customer Care and <br /> Solutions for</span>
             <span
-              class="block bg-gradient-to-r from-teal-400 to-teal-900 bg-clip-text pb-3 text-transparent"
+              class="block bg-gradient-to-r from-indigo-400 to-indigo-900 bg-clip-text pb-3 text-transparent"
             >
               Laptop Wireless <br /> Accessories
             </span>
@@ -31,7 +31,7 @@ const { open } = useSearchPalette()
           <div class="flex items-center justify-center gap-3 md:justify-start">
             <!-- <button
               @click="open"
-              class="inline-flex items-center justify-center gap-1 rounded-md border border-teal-600 px-4 py-3 font-medium text-teal-600 shadow-sm focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2 sm:w-auto"
+              class="inline-flex items-center justify-center gap-1 rounded-md border border-indigo-600 px-4 py-3 font-medium text-indigo-600 shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 sm:w-auto"
             >
               <MagnifyingGlassIcon class="h-5 w-5" />
               <span>Search</span>
@@ -39,7 +39,7 @@ const { open } = useSearchPalette()
 
             <button
               @click=""
-              class="inline-flex items-center justify-center gap-1 rounded-md border border-teal-600 px-4 py-3 font-medium text-teal-600 shadow-sm focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2 sm:w-auto"
+              class="inline-flex items-center justify-center gap-1 rounded-md border border-indigo-600 px-4 py-3 font-medium text-indigo-600 shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 sm:w-auto"
             >
               <MagnifyingGlassIcon class="h-5 w-5" />
               <span>Search</span>

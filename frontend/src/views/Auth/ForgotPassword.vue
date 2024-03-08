@@ -63,7 +63,7 @@ const onSubmit = async () => {
       </form>
 
       <div class="mt-8">
-        <router-link :to="{ name: 'Login' }" class="text-teal-600 hover:text-teal-800">
+        <router-link :to="{ name: 'Login' }" class="text-indigo-600 hover:text-indigo-800">
           <p class="flex items-center justify-center gap-1">
             <ArrowLeftIcon class="h-5 w-5" />
             Back to Login

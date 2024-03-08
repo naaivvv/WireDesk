@@ -186,13 +186,13 @@ onBeforeRouteLeave(() => {
           <button
             @click="justReply"
             type="button"
-            class="relative inline-flex items-center rounded-l-md border border-teal-700 bg-teal-600 px-4 py-2 font-medium text-white hover:bg-teal-700 focus:z-10 focus:border-teal-700 focus:outline-none focus:ring-1 focus:ring-teal-700"
+            class="relative inline-flex items-center rounded-l-md border border-indigo-700 bg-indigo-600 px-4 py-2 font-medium text-white hover:bg-indigo-700 focus:z-10 focus:border-indigo-700 focus:outline-none focus:ring-1 focus:ring-indigo-700"
           >
             Reply
           </button>
           <Menu as="span" class="relative -ml-px block">
             <MenuButton
-              class="hover:teal-700 relative inline-flex items-center rounded-r-md border border-teal-700 bg-teal-600 px-2 py-2 font-medium text-white focus:z-10 focus:border-teal-700 focus:outline-none focus:ring-1 focus:ring-teal-700"
+              class="hover:indigo-700 relative inline-flex items-center rounded-r-md border border-indigo-700 bg-indigo-600 px-2 py-2 font-medium text-white focus:z-10 focus:border-indigo-700 focus:outline-none focus:ring-1 focus:ring-indigo-700"
             >
               <span class="sr-only">Open options</span>
               <ChevronDownIcon class="h-6 w-6" />

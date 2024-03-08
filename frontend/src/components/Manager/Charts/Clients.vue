@@ -20,7 +20,7 @@ const chartOptions = ref({
       opacity: 0.2
     }
   },
-  colors: ['#0d9488'],
+  colors: ['#4338ca'],
   dataLabels: {
     enabled: true
   },

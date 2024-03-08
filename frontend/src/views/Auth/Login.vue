@@ -85,7 +85,7 @@ const onSubmit = async () => {
 
         <router-link
           :to="{ name: 'ForgotPassword' }"
-          class="mt-3 block text-right text-teal-600 hover:text-teal-800"
+          class="mt-3 block text-right text-indigo-600 hover:text-indigo-800"
         >
           Forgot password?
         </router-link>
@@ -96,7 +96,7 @@ const onSubmit = async () => {
       <div class="mt-8">
         <p class="text-center text-gray-500">
           Don't have an account?
-          <router-link :to="{ name: 'Register' }" class="text-teal-600 hover:text-teal-800">
+          <router-link :to="{ name: 'Register' }" class="text-indigo-600 hover:text-indigo-800">
             Register
           </router-link>
         </p>
