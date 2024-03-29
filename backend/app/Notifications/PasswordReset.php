@@ -31,7 +31,7 @@ class PasswordReset extends Notification implements ShouldQueue
      */
     public function toMail(object $notifiable): MailMessage
     {
-        $resetUrl = getenv('FRONTEND_URL') . "/auth/reset-password?token=$this->token&email=$notifiable->email";
+        $resetUrl = getenv('APP_URL') . "/auth/reset-password?token=$this->token&email=$notifiable->email";
         $appName  = getenv('APP_NAME');
         return (new MailMessage)
             ->subject("Password Reset Request | $appName")
