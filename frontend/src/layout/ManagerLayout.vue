@@ -49,21 +49,6 @@ const sidebarOpen = ref(false)
 const userStore = useAuthStore()
 const { user, isAdmin, message, isSuccess } = storeToRefs(userStore)
 
-// const adminNavigation = [
-//   { name: 'Dashboard', to: 'Dashboard', icon: HomeIcon },
-//   { name: 'Users', to: 'DashboardUsers', icon: UsersIcon },
-//   { name: 'Departments', to: 'DashboardDepartments', icon: BriefcaseIcon },
-//   { name: 'Clients', to: 'DashboardClients', icon: UserGroupIcon },
-//   { name: 'Categories', to: 'DashboardCategories', icon: Squares2X2Icon },
-//   { name: 'FAQs', to: 'DashboardFaqs', icon: QuestionMarkCircleIcon },
-//   { name: 'Canned Responses', to: 'DashboardCannedResponses', icon: ChatBubbleLeftRightIcon },
-//   { name: 'Newsletters', to: 'DashboardNewsletters', icon: EnvelopeIcon },
-//   { name: 'Tickets', to: 'DashboardTickets', icon: TicketIcon },
-//   { name: 'Profile', to: 'DashboardProfile', icon: UserCircleIcon },
-//   { name: 'Password', to: 'DashboardPassword', icon: KeyIcon },
-//   { name: 'Notifications', to: 'DashboardNotifications', icon: BellIcon }
-// ]
-
 const adminNavigation = [
   { name: 'Dashboard', to: 'Dashboard', icon: HomeIcon },
   { name: 'Users', to: 'DashboardUsers', icon: UsersIcon },
@@ -71,30 +56,21 @@ const adminNavigation = [
   { name: 'Clients', to: 'DashboardClients', icon: UserGroupIcon },
   { name: 'Categories', to: 'DashboardCategories', icon: Squares2X2Icon },
   { name: 'FAQs', to: 'DashboardFaqs', icon: QuestionMarkCircleIcon },
-  { name: 'Canned Responses', to: '', icon: ChatBubbleLeftRightIcon },
-  { name: 'Newsletters', to: '', icon: EnvelopeIcon },
-  { name: 'Tickets', to: '', icon: TicketIcon },
+  { name: 'Canned Responses', to: 'DashboardCannedResponses', icon: ChatBubbleLeftRightIcon },
+  { name: 'Newsletters', to: 'DashboardNewsletters', icon: EnvelopeIcon },
+  { name: 'Tickets', to: 'DashboardTickets', icon: TicketIcon },
   { name: 'Profile', to: 'DashboardProfile', icon: UserCircleIcon },
   { name: 'Password', to: 'DashboardPassword', icon: KeyIcon },
-  { name: 'Notifications', to: '', icon: BellIcon }
+  { name: 'Notifications', to: 'DashboardNotifications', icon: BellIcon }
 ]
-
-// const agentNavigation = [
-//   { name: 'Dashboard', to: 'Dashboard', icon: HomeIcon },
-//   { name: 'Tickets', to: 'DashboardTickets', icon: TicketIcon },
-//   { name: 'Canned Responses', to: 'DashboardCannedResponses', icon: ChatBubbleLeftRightIcon },
-//   { name: 'Profile', to: 'DashboardProfile', icon: UserCircleIcon },
-//   { name: 'Password', to: 'DashboardPassword', icon: KeyIcon },
-//   { name: 'Notifications', to: 'DashboardNotifications', icon: BellIcon }
-// ]
 
 const agentNavigation = [
   { name: 'Dashboard', to: 'Dashboard', icon: HomeIcon },
-  { name: 'Tickets', to: '', icon: TicketIcon },
-  { name: 'Canned Responses', to: '', icon: ChatBubbleLeftRightIcon },
+  { name: 'Tickets', to: 'DashboardTickets', icon: TicketIcon },
+  { name: 'Canned Responses', to: 'DashboardCannedResponses', icon: ChatBubbleLeftRightIcon },
   { name: 'Profile', to: 'DashboardProfile', icon: UserCircleIcon },
   { name: 'Password', to: 'DashboardPassword', icon: KeyIcon },
-  { name: 'Notifications', to: '', icon: BellIcon }
+  { name: 'Notifications', to: 'DashboardNotifications', icon: BellIcon }
 ]
 
 const navigation = computed(() => {
