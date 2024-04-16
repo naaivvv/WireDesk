@@ -15,7 +15,7 @@ class UserFactory extends Factory
             'email'             => fake()->unique()->safeEmail(),
             'phone'             => fake()->phoneNumber(),
             'email_verified_at' => now(),
-            'password'          => 'OTickets@00',
+            'password'          => 'password',
             'remember_token'    => Str::random(10),
         ];
     }
