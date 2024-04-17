@@ -7,8 +7,8 @@ import vue from '@vitejs/plugin-vue'
 export default defineConfig({
   // server: {
   //   https: {
-  //     key: './wiredesk-privateKey.key',
-  //     cert: './wiredesk.crt',
+  //     key: './wiredesk-private.key',
+  //     cert: './wiredesk-certificate.crt',
   //   }
   // },
   plugins: [vue()],
