@@ -7,9 +7,22 @@ defineProps<{
 </script>
 
 <template>
-  <router-link
+  <!-- <router-link
     class="flex items-center rounded-lg border bg-white hover:bg-indigo-600 hover:text-white"
     :to="{ name: 'HomeCategory', params: { slug: category.slug } }"
+  >
+    <div class="flex-1 p-6 text-center">
+      <div>
+        <span class="text-xl font-semibold">
+          {{ category.name }}
+        </span>
+        ({{ category.faqs_count }})
+      </div>
+    </div>
+  </router-link> -->
+  <router-link
+    class="flex items-center rounded-lg border bg-white hover:bg-indigo-600 hover:text-white"
+    :to="{ }"
   >
     <div class="flex-1 p-6 text-center">
       <div>

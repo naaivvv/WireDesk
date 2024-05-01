@@ -29,15 +29,24 @@ const { open } = useSearchPalette()
             Get the help you need with our FAQs and ticketing system
           </h2>
           <div class="flex items-center justify-center gap-3 md:justify-start">
-            <button
+            <!-- <button
               @click="open"
+              class="inline-flex items-center justify-center gap-1 rounded-md border border-indigo-600 px-4 py-3 font-medium text-indigo-600 shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 sm:w-auto"
+            >
+              <MagnifyingGlassIcon class="h-5 w-5" />
+              <span>Search</span>
+            </button> -->
+
+            <button
+              @click=""
               class="inline-flex items-center justify-center gap-1 rounded-md border border-indigo-600 px-4 py-3 font-medium text-indigo-600 shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 sm:w-auto"
             >
               <MagnifyingGlassIcon class="h-5 w-5" />
               <span>Search</span>
             </button>
 
-            <CTALink to="ClientNewTicket" text="Submit a ticket" />
+            <!-- <CTALink to="ClientNewTicket" text="Submit a ticket" /> -->
+            <CTALink to="" text="Submit a ticket" />
           </div>
         </div>
       </header>
