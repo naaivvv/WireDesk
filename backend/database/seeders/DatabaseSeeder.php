@@ -23,7 +23,7 @@ class DatabaseSeeder extends Seeder
             ->create([
                 'name'     => 'wiredeskA',
                 'email'    => 'contact@wiredesk.com',
-                'password' => 'password'
+                'password' => 'WireDesk000'
             ]);
 
         Department::factory()
@@ -33,7 +33,7 @@ class DatabaseSeeder extends Seeder
                 $department->agents()->save(
                     User::factory()
                         ->agent()
-                        ->create(['email' => 'agent'.$department->id.'@wiredesk.com'])
+                        ->create(['email' => 'agent@wiredesk.com'])
                 );
                 $department->agents()->saveMany(
                     User::factory()
@@ -60,8 +60,7 @@ class DatabaseSeeder extends Seeder
             ->client()
             ->create([
                 'name'  => 'Client',
-                'email' => 'client@wiredesk.com',
-                'password' => 'password'
+                'email' => 'client@wiredesk.com'
             ]);
 
         $randomCategories = Category::query()
