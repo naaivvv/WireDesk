@@ -23,7 +23,7 @@ class DatabaseSeeder extends Seeder
             ->create([
                 'name'     => 'wiredeskA',
                 'email'    => 'contact@wiredesk.com',
-                'password' => 'WireDesk000'
+                'password' => 'password'
             ]);
 
         Department::factory()
