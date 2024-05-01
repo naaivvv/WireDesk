@@ -98,9 +98,16 @@ const subscribe = async () => {
                 />
               </div>
               <div class="mt-4 sm:mt-0 sm:ml-3">
-                <button
+                <!-- <button
                   :disabled="isLoading"
                   type="submit"
+                  class="block w-full rounded-md border border-transparent bg-indigo-800 px-5 py-3 text-base font-medium text-white shadow hover:bg-indigo-900 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-indigo-600 disabled:opacity-50 sm:px-10"
+                >
+                  Stay Informed
+                </button> -->
+                <button
+                  :disabled="isLoading"
+                  type="button"
                   class="block w-full rounded-md border border-transparent bg-indigo-800 px-5 py-3 text-base font-medium text-white shadow hover:bg-indigo-900 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-indigo-600 disabled:opacity-50 sm:px-10"
                 >
                   Stay Informed
