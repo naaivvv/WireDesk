@@ -29,7 +29,7 @@
     </div>
 
     <p class="text-center text-sm text-gray-500">
-      All rights reserved &copy; {{ new Date().getFullYear() }}
+      All rights reserved &copy; {{ new Date().getFullYear() }} WireDesk
     </p>
   </footer>
 </template>

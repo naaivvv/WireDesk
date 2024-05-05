@@ -13,6 +13,7 @@ use App\Models\TicketReply;
 use App\Models\User;
 use App\Services\TicketService;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Str;
 
 class DatabaseSeeder extends Seeder
 {
@@ -22,7 +23,7 @@ class DatabaseSeeder extends Seeder
             ->admin()
             ->create([
                 'name'     => 'wiredeskA',
-                'email'    => 'contact@wiredesk.com',
+                'email'    => 'admin@wiredesk.com',
                 'password' => 'password'
             ]);
 
@@ -33,8 +34,9 @@ class DatabaseSeeder extends Seeder
                 $department->agents()->save(
                     User::factory()
                         ->agent()
-                        ->create(['email' => 'agent@wiredesk.com'])
+                        ->create(['email' => $this->generateUniqueAgentEmail()])
                 );
+                ;
                 $department->agents()->saveMany(
                     User::factory()
                         ->agent()
@@ -90,12 +92,10 @@ class DatabaseSeeder extends Seeder
                 $ticketService->assignToAgent($ticket);
 
                 $attachments = TicketAttachment::factory()
-                    ->count(fake()->numberBetween(0, 2))
-                    ->create();
+                    ->count(random_int(0, 2))
+                    ->create(['ticket_id' => $ticket->id]);
 
-                $ticket
-                    ->attachments()
-                    ->saveMany($attachments);
+                $ticket->attachments()->saveMany($attachments);
 
                 $clientReply = TicketReply::factory()
                     ->create([
@@ -104,16 +104,12 @@ class DatabaseSeeder extends Seeder
                     ]);
 
                 $clientReplyAttachments = ReplyAttachment::factory()
-                    ->count(fake()->numberBetween(0, 2))
-                    ->create();
+                    ->count(random_int(0, 2))
+                    ->create(['ticket_reply_id' => $clientReply->id]);
 
-                $clientReply
-                    ->attachments()
-                    ->saveMany($clientReplyAttachments);
+                $clientReply->attachments()->saveMany($clientReplyAttachments);
 
-                $ticket
-                    ->replies()
-                    ->save($clientReply);
+                $ticket->replies()->save($clientReply);
 
                 if ($ticket->agents()->exists()) {
                     $agentReply = TicketReply::factory()
@@ -123,17 +119,22 @@ class DatabaseSeeder extends Seeder
                         ]);
 
                     $agentReplyAttachments = ReplyAttachment::factory()
-                        ->count(fake()->numberBetween(0, 2))
-                        ->create();
+                        ->count(random_int(0, 2))
+                        ->create(['ticket_reply_id' => $agentReply->id]);
 
-                    $agentReply
-                        ->attachments()
-                        ->saveMany($agentReplyAttachments);
+                    $agentReply->attachments()->saveMany($agentReplyAttachments);
 
-                    $ticket
-                        ->replies()
-                        ->save($agentReply);
+                    $ticket->replies()->save($agentReply);
                 }
             });
+    }
+
+    private function generateUniqueAgentEmail(): string
+    {
+        do {
+            $email = 'agent' . rand(1, 9999) . '@wiredesk.com';
+        } while (User::where('email', $email)->exists());
+
+        return $email;
     }
 }
