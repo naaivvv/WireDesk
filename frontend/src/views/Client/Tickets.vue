@@ -317,8 +317,7 @@ const reset = async () => {
       <h3 class="text-xl font-medium text-gray-900">No tickets</h3>
       <p class="mt-1 text-sm text-gray-500">Do you have any questions?</p>
       <div class="mt-6">
-        <!-- <CTALink to="ClientNewTicket" text="Submit a ticket" /> -->
-        <CTALink to="" text="Submit a ticket" />
+        <CTALink to="ClientNewTicket" text="Submit a ticket" />
       </div>
     </div>
   </section>
