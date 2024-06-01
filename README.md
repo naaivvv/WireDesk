@@ -211,9 +211,9 @@ If you ran the database seeder, you can login with the following credentials:
 
 | Role   | Email              | Password    |
 | ------ | ------------------ | ----------- |
-| Admin  | contact@wiredesk.com | WireDesk000 |
-| Agent  | agent@wiredesk.com   | WireDesk000 |
-| Client | client@wiredesk.com  | WireDesk000 |
+| Admin  | admin@wiredesk.com | password |
+| Agent  | agent@wiredesk.com   | password |
+| Client | client@wiredesk.com  | password |
 
 ### Tests
 
