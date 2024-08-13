@@ -122,7 +122,7 @@ If you found this repo helpful, please give it a (⭐). Thank you!
 1. Clone the repository
 
    ```bash
-   git clone https://github.com/omaghd/otickets.git
+   git clone https://github.com/naaivvv/WireDesk.git
    ```
 
 2. Install the dependencies
@@ -230,16 +230,6 @@ To listen for queued notifications, run the following command:
 ```bash
 cd path/to/backend && php artisan queue:listen
 ```
-
-### Postman Collection
-
-I made it simple for you to test the API endpoints by providing a Postman collection.
-
-You can download it from <a href="https://omaghd.com/projects/otickets/postman_collection.json" target="_blank" download>here</a>.
-
-<a href="#table-of-contents" title="Go back to the table of contents">
-⬆️
-</a>
 
 ## User Stories
 
@@ -545,18 +535,6 @@ You can download it from <a href="https://omaghd.com/projects/otickets/postman_c
 | LinkedIn | [/in/edwin-bayog-6366a0148](https://www.linkedin.com/in/edwin-bayog-6366a0148/) |
 | Twitter  | [/naaivvv](https://twitter.com/naaivvv)        |
 | GitHub   | [/naaivvv](https://github.com/naaivvv)         |
-
-<a href="#table-of-contents" title="Go back to the table of contents">
-⬆️
-</a>
-
-## Source Author
-
-| Website  | [omaghd.com](https://omaghd.com)             |
-| -------- | -------------------------------------------- |
-| LinkedIn | [/in/omaghd](https://linkedin.com/in/omaghd) |
-| Twitter  | [/omaghd](https://twitter.com/OmaghD)        |
-| GitHub   | [/omaghd](https://github.com/omaghd)         |
 
 <a href="#table-of-contents" title="Go back to the table of contents">
 ⬆️
